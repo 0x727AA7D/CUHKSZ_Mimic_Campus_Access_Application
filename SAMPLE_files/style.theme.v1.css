@@ -226,7 +226,7 @@
     background: #5d78ff;
 }
 
-.form-control:disabled, .form-control[readonly] ,input:disabled{
+.form-control:disabled, .form-control[readonly] ,input:enabled{
     background-color: #f7f8fa !important;
     opacity: 1;
 }
