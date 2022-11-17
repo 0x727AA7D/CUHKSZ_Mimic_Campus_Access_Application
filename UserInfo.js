@@ -1,6 +1,6 @@
 // 个人信息
-var my_stuID = "120040061"; // 学生ID
-var my_stuName = "汪宁远"; // 姓名
+var my_stuID = "120040000"; // 学生ID
+var my_stuName = ""; // 姓名
 var my_dormNo = "A304"; // 宿舍号
 var my_stuCollegeName = "数据科学学院"; // 学院全称
 var my_stuUnitName = "思廷书院" // 书院全称
@@ -15,7 +15,7 @@ var my_city = "深圳" // 区/市
 var my_district = "龙岗" // 区/县
 var my_street = "启迪协信科技园" // 所在街道以及详细地址
 
-var my_remark = "洽谈社团事务" // 离校备注/原因
+var my_remark = "" // 离校备注/原因
 
 
 // TODAY
