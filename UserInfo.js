@@ -21,12 +21,12 @@ var my_remark = "" // 离校备注/原因
 // TODAY
 var day = new Date();
 day.setTime(day.getTime());
-var s = day.getFullYear()+"-" + (day.getMonth()+1) + "-" + day.getDate();
+var s = day.getFullYear()+"-" + (day.getMonth()+1).toString().padStart(2,'0') + "-" + day.getDate().toString().padStart(2,'0');
 
 // NEXT DAY
 var day2 = new Date();
 day2.setTime(day2.getTime()+24*60*60*1000);
-var s2 = day2.getFullYear()+"-" + (day2.getMonth()+1) + "-" + day2.getDate();
+var s2 = day2.getFullYear()+"-" + (day2.getMonth()+1).toString().padStart(2,'0') + "-" + day2.getDate().toString().padStart(2,'0');
 
 // 离校相关时间
 var my_d_leaveDate = s // 离校时间，格式如 2022-06-29
